@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP WAF 2.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-waf\n"
-"POT-Creation-Date: 2013-06-03 17:51:27+00:00\n"
-"PO-Revision-Date: 2013-06-03 19:52+0200\n"
+"POT-Creation-Date: 2013-05-27 17:27:59+00:00\n"
+"PO-Revision-Date: 2013-05-27 19:44+0200\n"
 "Last-Translator: Aldo Latino <aldolat@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -16,87 +16,91 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: wp-waf.php:229
+#: wp_waf.php:229
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: wp-waf.php:249
+#: wp_waf.php:249
 msgid "WP WAF Settings"
 msgstr "Impostazioni di WP WAF"
 
-#: wp-waf.php:250
+#: wp_waf.php:250
 msgid ""
-"The WP_WAF is a Web Application Firewall for Wordpress. Protects against web "
-"attacks."
+"The WP_WAF is a Web Application Firewall for Wordpress. Protects against "
+"web attacks."
 msgstr ""
 "WP_WAF è un Web Application Firewall per WordPress. Protegge da attacchi "
-"conosciuti e non."
+"dal web"
 
-#: wp-waf.php:267
+#: wp_waf.php:300
 msgid "Manage email notification of attacks"
 msgstr "Gestisci via email la notifica degli attacchi"
 
-#: wp-waf.php:272
+#: wp_waf.php:305
 msgid "Email Address"
 msgstr "Indirizzo email"
 
-#: wp-waf.php:284
+#: wp_waf.php:317
 msgid "Notifications for attacks type"
 msgstr "Notifiche dei tipi di attacchi"
 
-#: wp-waf.php:288
+#: wp_waf.php:321
 msgid "Query"
 msgstr "Query"
 
-#: wp-waf.php:295
+#: wp_waf.php:328
 msgid "Method"
 msgstr "Metodo"
 
-#: wp-waf.php:302
+#: wp_waf.php:335
 msgid "Referrer"
 msgstr "Referente"
 
-#: wp-waf.php:309
+#: wp_waf.php:342
 msgid "User Agent"
 msgstr "User Agent"
 
-#: wp-waf.php:316
+#: wp_waf.php:349
 msgid "User Agent Empty"
 msgstr "User Agent vuoto"
 
-#: wp-waf.php:319
+#: wp_waf.php:352
 msgid "Not recommended"
 msgstr "Non raccomandato"
 
-#: wp-waf.php:328
+#: wp_waf.php:361
 msgid "Under the Hood"
 msgstr "Sotto il cofano"
 
-#: wp-waf.php:332
+#: wp_waf.php:365
 msgid "Block Query &gt; 255 char"
 msgstr "Blocca le query &gt; 255 caratteri"
 
-#: wp-waf.php:339
+#: wp_waf.php:371
+msgid "Disable Directory Listing"
+msgstr "Disabilita Directory Listing"
+
+#: wp_waf.php:378
 msgid "Attack Message"
 msgstr "Messaggio dell'attacco"
 
-#: wp-waf.php:343
+#: wp_waf.php:382
 msgid "Logo"
 msgstr "Logo"
 
-#: wp-waf.php:346
+#: wp_waf.php:385
 msgid "Blank Page"
 msgstr "Pagina vuota"
 
-#: wp-waf.php:357
+#: wp_waf.php:396
 msgid "Test Configuration"
 msgstr "Prova la configurazione"
 
-#: wp-waf.php:362
+#: wp_waf.php:401
 msgid "%1$sTest your configuration now!%2$s"
 msgstr "%1$sProva subito la tua configurazione!%2$s"
 
-#: wp-waf.php:371
+#: wp_waf.php:410
 msgid "Save Changes"
 msgstr "Salva i cambiamenti"
 
@@ -105,21 +109,21 @@ msgid "WP WAF"
 msgstr "WP WAF"
 
 #. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/extend/plugins/wp-waf/"
-msgstr "http://wordpress.org/extend/plugins/wp-waf/"
+msgid "http://wordpress.org/plugins/wp-waf/"
+msgstr "http://wordpress.org/plugins/wp-waf/"
 
 #. Description of the plugin/theme
 msgid ""
-"WP WAF - WordPress Application Firewall. Protects against current and future "
-"attacks. Email notification is disabled by default, notification can be "
-"activated and configured in <strong>Settings -> WP WAF</strong>. Go to your "
+"WP WAF - WordPress Application Firewall. Protects against web attacks "
+"Email notification is disabled by default, notification can be activated"
+"and configured in <strong>Settings -> WP WAF</strong>. Go to your "
 "<a href=\"options-general.php?page=wp_waf\">WP WAF configuration</a> page."
 msgstr ""
-"WP_WAF - Wordpress Application Firewall. Protegge da attacchi conosciuti e "
-"non. La notifica via email è disabilitata in modo predefinito, ma può essere "
+"WP_WAF - Wordpress Application Firewall. Protegge da attacchi web. "
+"La notifica via email è disabilitata in modo predefinito, ma può essere "
 "attivata e configurata in <strong>Impostazioni -> WP WAF</strong>. Vai alla "
-"pagina <a href=\"options-general.php?page=wp_waf\">Configurazione di WP WAF</"
-"a>"
+"pagina <a href=\"options-general.php?page=wp_waf\">Configurazione di WP WAF<"
+"/a>"
 
 #. Author of the plugin/theme
 msgid "Gianni 'guelfoweb' Amato"
